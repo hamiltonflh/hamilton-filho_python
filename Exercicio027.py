@@ -1,0 +1,5 @@
+nome=str(input('Digite um nome completo: ')).strip().upper()
+nomediv=nome.split()
+print('Nome: {}'.format(nome))
+print('Primeiro Nome: {}'.format(nomediv[0]))
+print('Ultimo Nome: {}'.format(nomediv[len(nomediv)-1]))
